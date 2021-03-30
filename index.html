@@ -14,6 +14,7 @@
 	table{
 	width: 54%;
 	height: 55%;
+	align-content: center;
 	}
 	
 	th{
@@ -21,11 +22,7 @@
 		font-size: 2em;
 		margin-top: 8px;
 		margin-bottom: 8px;
-	}
-	
-	iframe{
-	padding-left: 200px;
-	}
+		align-content: center;
 	}
 	
 	img{
@@ -37,9 +34,12 @@
 
 <title>Photo Gallery</title>
 
+<script src="main.js"></script>
+
 </head>
 
-<body>
+<body onload="setDate()">
+
 
 <center>
 	<table>
@@ -48,14 +48,8 @@
 		<th colspan="4">Photo Gallery</th>
 		</tr>
 		
-		<tr>
-			<td colspan="1"><iframe src="https://free.timeanddate.com/clock/i7qkwnby/n176/szw80/szh80/hoc222/hbw6/hfcb1b3b5/cf100/hgr0/hcw2/hcd88/fan3/fas24/fdi70/mqc000/mqs3/mql13/mqw4/mqd94/mhc000/mhs3/mhl13/mhw4/mhd94/mmc000/mml5/mmw1/mmd94/hwm2/hhs2/hhb18/hms2/hml80/hmb18/hmr7/hscf09/hss1/hsl90/hsr5" align-content="center" padding="50" width="80" height="80"></iframe>
-
-
-
-</td>
-		</tr>
-		
+			<h3 id="date"></h3>
+			
 		<tr>
 		
 		<td><img src="Images/pic%201.jpg.jpg"></td>
