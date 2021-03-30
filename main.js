@@ -1,3 +1,3 @@
-Function displayDate() {
-document.getElementById("showDate").innerHTML= Date();
+function setDate() {
+document.getElementById("date").innerHTML=new Date().toDateString();
 }
